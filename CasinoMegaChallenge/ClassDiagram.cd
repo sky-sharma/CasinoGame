@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CasinoMegaChallenge.Default">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAQAEAAAAAAAAAMAAAAABAAAAAAAMAAIA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CasinoMegaChallenge.Spinner">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAIIAAAAAAAAAAAAAEBAAAAQAAIARIAIAAQAA=</HashCode>
+      <FileName>Spinner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CasinoMegaChallenge.SlotGame">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <AssociationLine Name="spinners" Type="CasinoMegaChallenge.Spinner">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.662" Y="-0.003" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QgAAAAIAAAACQAAQCAAAAgAIgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SlotGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="spinners" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
